@@ -10,7 +10,7 @@ kubectl apply -f k8shpalimit-template.yaml
 
 kubectl apply -f hpa-violation-constraint.yaml
 
-### view constraints for violation ###
+### view constraint for violation ###
 
 kubectl get k8shpalimit.constraints.gatekeeper.sh/hpa-violation -o yaml
 
