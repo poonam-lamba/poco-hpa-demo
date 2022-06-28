@@ -1,4 +1,6 @@
-# poco-hpa-demo #
+# policy controller - custom policy demo #
+
+# Problem - limit number of max instances for hpa #
 
 ## create contraint template ##
 
