@@ -1,0 +1,7 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: K8sHpaLimit
+metadata:
+  name: hpa-violation
+spec:
+  parameters:
+    maxReplicas: 15
