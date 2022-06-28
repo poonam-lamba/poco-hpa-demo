@@ -3,5 +3,9 @@ kind: K8sHpaLimit
 metadata:
   name: hpa-violation
 spec:
+  match:
+      kinds:
+        - apiGroups: [""]
+          kinds: ["HorizontalPodAutoscaler"]
   parameters:
     maxReplicas: 15
