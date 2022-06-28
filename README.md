@@ -1,6 +1,6 @@
 # policy controller - custom policy demo #
 
-## Problem - limit number of max instances for hpa ##
+## Problem - limit number of maxReplicas for hpa ##
 
 ### create contraint template ###
 
