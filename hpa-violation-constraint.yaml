@@ -4,8 +4,8 @@ metadata:
   name: hpa-violation
 spec:
   match:
-      kinds:
-        - apiGroups: [""]
-          kinds: ["HorizontalPodAutoscaler"]
+    kinds:
+      - kinds: ["HorizontalPodAutoscaler"]
   parameters:
     maxReplicas: 15
+  enforcementAction: dryrun
