@@ -8,4 +8,4 @@ spec:
       - kinds: ["HorizontalPodAutoscaler"]
   parameters:
     maxReplicas: 15
-  enforcementAction: dryrun
+  enforcementAction: deny

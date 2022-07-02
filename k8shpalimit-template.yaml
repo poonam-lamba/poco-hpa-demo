@@ -19,5 +19,5 @@ spec:
         package k8shpalimit
         violation[{"msg": msg}] {
           input.review.object.spec.maxReplicas > input.parameters.maxReplicas
-          msg := sprintf("The replicas requested are greater than %v is allowed", [input.parameters.maxReplicas])
+          msg := sprintf("The replicas requested are greater than %v", [input.parameters.maxReplicas])
         }
